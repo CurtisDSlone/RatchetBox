@@ -2,14 +2,14 @@
 
 # RatchetBox
 
-A collection of ready-made **ratchets** for the [Ratchet](https://github.com/scanset/Ratchet)
+A collection of ready-made **ratchets** for the [Ratchet](https://github.com/CurtisDSlone/Ratchet)
 engine - the cross-platform host (Windows, Linux, macOS) that runs a small local model as a
 *constrained proposer*, gated by a deterministic Oracle. Ratchet is domain-agnostic; the domain lives
 in a ratchet. This repo is a box of them.
 
 > **New here?** A *ratchet* is a self-contained directory (`ratchet.json` + `flows/`, `tools/`, `kb/`)
 > that you point the engine at: `ratchet <dir>`. The engine and how it works live in the
-> [Ratchet repo](https://github.com/scanset/Ratchet).
+> [Ratchet repo](https://github.com/CurtisDSlone/Ratchet).
 
 ## Layout
 
@@ -38,10 +38,10 @@ Linux/      ratchets whose tools are POSIX / cross-platform
 
 ```
 # 1. Get the engine (see its README for build + Ollama setup)
-git clone https://github.com/scanset/Ratchet
+git clone https://github.com/CurtisDSlone/Ratchet
 
 # 2. Get this box of ratchets, alongside it
-git clone https://github.com/scanset/RatchetBox
+git clone https://github.com/CurtisDSlone/RatchetBox
 
 # 3. Open one (from the Ratchet repo)
 cd Ratchet
